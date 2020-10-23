@@ -1,5 +1,5 @@
 # Unsupervised-ML-on-Galaxy-Morphology-using-VQ-VAE
-This toy code is a simplified version for demonstration only based on the codes used in the paper: [Beyond the Hubble Sequence -- Exploring Galaxy Morphology with Unsupervised Machine Learning](https://arxiv.org/abs/2009.11932).  
+This code is used in the paper: [Beyond the Hubble Sequence -- Exploring Galaxy Morphology with Unsupervised Machine Learning](https://arxiv.org/abs/2009.11932).  
 
 We apply an unsupervised machine learning techniques consisting of **Vector-Quantised Variational Autoencoder (VQ-VAE)**[[1]](https://arxiv.org/abs/1711.00937)[[2]](https://arxiv.org/pdf/1906.00446.pdf) for feature learning and **Hierarchical Clustering (HC)** to explore galaxy morphology. In this work, we modify the original architecture of the VQ-VAE by adding an extra loss, which is defined by the silhouette score measured from a preliminary clustering result using K-medoids clustering (details please check our paper).
 
