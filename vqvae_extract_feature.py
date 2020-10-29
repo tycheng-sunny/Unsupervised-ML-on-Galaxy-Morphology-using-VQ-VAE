@@ -197,8 +197,6 @@ def combine_batches(batch_list):
     return {'images': images, 'id': id}
 
 data_dict = combine_batches(openhdf(data_file))
-data_dict['images'] = data_dict['images']
-data_dict['id'] = data_dict['id']
 
 ## MAIN ##
 # read the extracted features
